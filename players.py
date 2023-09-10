@@ -2,7 +2,7 @@ from cards import build_deck
 
 
 class Player:
-    name = None
+    name = "player"
     deck = None
     draw_pile = None
     discard_pile = []
