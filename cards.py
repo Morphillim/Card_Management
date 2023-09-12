@@ -71,7 +71,7 @@ class Card:
     def print(self):
         # print(f"Details of {self.name}")
         print(f'Name: {self.name}\nTier: {Tier(self.tier).name}\nValue: {self.value}\nMetric: {self.metric}\nVitality: '
-              f'{self.vitality}\nAbility: {self.ability}\nText: {self.text}')
+              f'{self.vitality}\nAbility: {self.ability}\nText: {self.text}\n')
 
     def print_stat(self, stat):
         if stat == "name":
